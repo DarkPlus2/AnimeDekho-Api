@@ -5,6 +5,7 @@
   "main": "src/server.js",
   "scripts": {
     "dev": "nodemon src/server.js",
+    "build": "npm run build",
     "start": "node src/server.js",
     "worker": "node src/scraper/worker.js",
     "migrate": "node src/config/migrate.js"
