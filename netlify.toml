@@ -1,0 +1,27 @@
+[build]
+  command = "npm run build"
+  functions = "netlify/functions"
+  publish = "public"
+
+# Redirect API requests to serverless functions
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/server"
+  status = 200
+
+# Environment variables (use Netlify dashboard for secrets in production)
+[build.environment]
+  NODE_VERSION = "18"
+  DATABASE_URL = "YOUR_DATABASE_URL"
+  DATABASE_SSL = "true"
+
+# Caching for performance
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+
+[[headers]]
+  for = "/api/*"
+    [headers.values]
+      Access-Control-Allow-Origin = "*"
+      Access-Control-Allow-Headers = "Content-Type"
+      Access-Control-Allow-Methods = "GET, POST, OPTIONS"
