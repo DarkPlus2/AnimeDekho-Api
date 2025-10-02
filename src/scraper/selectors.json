@@ -1,0 +1,15 @@
+{
+  "animeContainer": ".anime-card",
+  "animeTitle": ".title",
+  "animeLink": "a",
+  "animeImage": "img",
+  "animeSynopsis": ".synopsis",
+  "episodeContainer": ".episode-item",
+  "episodeTitle": ".episode-title",
+  "episodeLink": "a",
+  "episodeNumber": ".ep-number",
+  "streamContainer": ".stream-source",
+  "streamServer": ".server-name",
+  "streamLink": "a",
+  "streamQuality": ".quality"
+}
