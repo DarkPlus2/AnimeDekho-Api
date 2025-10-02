@@ -13,6 +13,6 @@ This project scrapes [AnimeDekho](https://animedekho.co/) for anime, episodes, a
 ## 🛠 Run Locally
 
 ```bash
-git clone https://github.com/yourname/animedekho-scraper.git
+git clone https://github.com/DarkPlus2/AnimeDekho-Api.git
 cd animedekho-scraper
 npm install
