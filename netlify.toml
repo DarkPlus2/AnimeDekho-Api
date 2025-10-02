@@ -11,8 +11,8 @@
 
 # Environment variables (use Netlify dashboard for secrets in production)
 [build.environment]
-  NODE_VERSION = "18"
-  DATABASE_URL = "YOUR_DATABASE_URL"
+  NODE_VERSION = "20"
+  DATABASE_URL = "postgresql://neondb_owner:npg_vBmb4dqG8DUw@ep-small-bush-a1yc9dye-pooler.ap-southeast-1.aws.neon.tech/neondb"
   DATABASE_SSL = "true"
 
 # Caching for performance
