@@ -16,3 +16,5 @@ This project scrapes [AnimeDekho](https://animedekho.co/) for anime, episodes, a
 git clone https://github.com/DarkPlus2/AnimeDekho-Api.git
 cd animedekho-scraper
 npm install
+```
+## Not Finished
